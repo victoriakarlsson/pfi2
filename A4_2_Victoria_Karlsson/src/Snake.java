@@ -20,7 +20,7 @@ public class Snake extends Animal{
 		String poison = "is poisonus" ;
 		String noPoison = "is not poisonus";
 		
-		String info = "The Snake, " + getLatinName()+ ", ";
+		String info = "The Snake, " + getLatinName()+ ", " + getFriendlyName();
 		if (isPoisonus() == true){
 			return info + poison;
 			

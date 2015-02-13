@@ -3,7 +3,7 @@ public abstract class Animal {
 
 	
 	private String latinName;
-	private String friendlyName = "no name";
+	private String friendlyName = " has no name ";
 	
 	public Animal ( String latinName){
 	this.setLatinName(latinName);

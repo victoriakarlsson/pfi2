@@ -41,6 +41,7 @@ public class AnimalGUI extends JFrame {
 		cat_2.setFriendlyName("Blixten");
 		
 		
+		
 		ArrayList<Animal> animals = new ArrayList<Animal>();
 		animals.add(new Dog("Canis lupus domesticus", 60, false, "per" ));// index0
 		animals.add(new Snake("Anguis", true)); // index 1
