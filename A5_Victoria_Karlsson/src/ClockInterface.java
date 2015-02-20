@@ -1,8 +1,8 @@
 
-public class ClockInterface {
+public interface ClockInterface {
 
 	
-	public void update (int hour, int minute, int second){
-		
-	}
+public void update (int hours, int minutes, int seconds);
+
+
 }
